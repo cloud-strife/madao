@@ -1,0 +1,3 @@
+#if($selectedAttachment)
+<a href="$baseurl/secure/attachment/${selectedAttachment.id}/${selectedAttachment.filename}">${selectedAttachment.filename}</a>
+#end

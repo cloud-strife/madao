@@ -1,0 +1,8 @@
+#controlHeader ($action $customField.id $customField.name $fieldLayoutItem.required $displayParameters.noHeader $auiparams)
+<select id="$customField.id" name="$customField.id">
+    <option #if(!$value) selected="selected"#end value="">None</option>
+    #foreach($att in $attachments)
+        <option #if($value == $att.id) selected="selected"#end value="$!{att.id}">$!{att.filename}</option>
+    #end
+</select>
+#controlFooter ($action $customField.id $fieldLayoutItem.fieldDescription $displayParameters.noHeader $auiparams)
