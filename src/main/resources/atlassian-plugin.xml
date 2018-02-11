@@ -13,7 +13,7 @@
   <customfield-type key="singleAttachmentPicker" name="Attachment Picker(single attachment)" class="idv.cloudstrife.jira.customfields.SingleAttachmentPicker">
     <resource type="velocity" name="view" location="templates/customfields/single-attachment-picker/view.vm"/>
     <resource type="velocity" name="edit" location="templates/customfields/single-attachment-picker/edit.vm"/>
-    <resource type="download" name="customfieldpreview.png" location="images/customFieldPreview.png"/>
+    <resource type="download" name="customFieldPreview.png" location="images/customFieldPreview.png"/>
     <description>Select Single Issue Attachment</description>
   </customfield-type>
 
